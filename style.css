@@ -60,9 +60,14 @@ li {
 
 /* 
 =====================
-    HEADER STYLES
+    CONTAINER STYLES
 =====================
  */
+
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+}
 
 .header {
   margin: 1.5rem 1rem;
