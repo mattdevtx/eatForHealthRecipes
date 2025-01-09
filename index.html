@@ -4,24 +4,36 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Eat For Health</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+			integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
 		<!-- styles -->
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
 		<section class="container">
-			<!-- header -->
-			<header class="header center-it">
-				<div class="header__logo">
-					<img
-						src="./images/eatForHealthIcon.svg"
-						alt="The Eat For Health Icon"
-					/>
-				</div>
-				<div class="header__text">Eat For Health</div>
-			</header>
-			<!-- end of header -->
-			<!-- heading -->
-			<h1 class="heading">What you cookin'?</h1>
+			<div class="section-center">
+				<!-- header -->
+				<header class="header center-it">
+					<div class="header__logo">
+						<img
+							src="./images/eatForHealthIcon.svg"
+							alt="The Eat For Health Icon"
+						/>
+					</div>
+					<div class="header__text">Eat For Health</div>
+				</header>
+				<!-- end of header -->
+				<!-- heading -->
+				<h1 class="heading">What would you like to cook?</h1>
+        <!-- recipe input -->
+				<input type="text" placeholder="&#xf002;" style="font-family: FontAwesome;" class="recipe-input"/>
+        <button class="recipe-search">Search</button>
+			</div>
 		</section>
 		<!-- javascript -->
 		<script src="main.js"></script>
